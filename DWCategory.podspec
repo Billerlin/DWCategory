@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Billerlin/DWCategory.git", :tag => s.version }
 
   s.source_files  = "DWCategory/**/*"
+  s.requires_arc = true
 end
