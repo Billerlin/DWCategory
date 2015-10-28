@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.author             = { "Jeason" => "billwangkio@gmail.com" }
   s.source       = { :git => "https://github.com/Billerlin/DWCategory.git”, :tag =>s.version.to_s }
   s.platform   = :ios, ‘7.0’
-  s.source_files  = "DWCategory/**"
+  s.source_files  = "DWCategory/**/*"
   s.requires_arc = true   
 end
